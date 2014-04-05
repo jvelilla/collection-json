@@ -8,7 +8,6 @@ Support for autocomplete, table lookup and filtering.
 If it's present the value for the field can either be a list of key, a list of value pairs, or a URL.
 If it's a URL, returns a valid collection json with a list of items that can be used by the client.
 
-## Example using an array of value pairs
 
 
 ## Example using a list of keys
@@ -74,12 +73,12 @@ In this case the client will GET the following document
             },
              ......
             {
-                "href": "http://.../status/5",
+                "href": "http://.../status/4",
                 "data": [
                     {
                         "name": "Id",
                         "prompt": "Id",
-                        "value": "5"
+                        "value": "4"
                     },
                     {
                         "name": "status",
