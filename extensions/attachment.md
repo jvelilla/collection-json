@@ -6,7 +6,7 @@ Support file attachements to send and receive CJ documents with file attachemtns
 1. Add an optional property to the <code>data</code> object: files [ARRAY].
 
 # Files
-The files array SHOULD contain one or more anonymous objects. Each object  MAY have any of two possible properties: name (REQUIRED), value (REQUIRED).  If present, the value property should be encoded using Base64
+The files array SHOULD contain one or more anonymous objects. Each object  MAY have two properties: name (REQUIRED), value (REQUIRED). If present, the value property should be encoded using Base64 encoding.
 
 
 
