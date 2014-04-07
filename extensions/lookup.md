@@ -24,7 +24,7 @@ If it's a URL, returns a valid collection json with a list of items that can be 
 
 
 ## Example using an array of value pairs
-In this case the acceptableValues SHOULD contain one or more anonymous objects. Each object MAY have any of two possible properties: id (REQUIRED), name (REQUIRED). 
+In this case the acceptableValues SHOULD contain one or more anonymous objects. Each object MAY have two possible properties: id (REQUIRED), name (REQUIRED). 
 
 ```
  {
