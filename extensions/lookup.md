@@ -24,7 +24,7 @@ If it's a URL, returns a valid collection json with a list of items that can be 
 
 
 ## Example using an array of value pairs
-In this case the acceptableValues SHOULD contain one or more anonymous objects. Each object MAY have two possible properties: id (REQUIRED), name (REQUIRED). 
+In this case the acceptableValues SHOULD contain one or more anonymous objects. Each object MAY have two possible properties: name (REQUIRED), value (REQUIRED). 
 
 ```
  {
@@ -32,7 +32,7 @@ In this case the acceptableValues SHOULD contain one or more anonymous objects. 
     "data" : [
       {"name" : "full-name", "value" : ""},
       {"name" : "email", "value" : ""},
-      {"name" : "status", "acceptableValues" : [{"id":"1", "name":"Open"},{"id":"2", "name":"Close"},{"id":"3", "name":"Pending"},{"id":"4", "name":"Won't Fix"}] ,value:"" "prompt" : "Status"}
+      {"name" : "status", "acceptableValues" : [{"name":"1", "value":"Open"},{"name":"2", "value":"Close"},{"name":"3", "value":"Pending"},{"name":"4", "value":"Won't Fix"}] ,value:"" "prompt" : "Status"}
     ]
   }
 ```
